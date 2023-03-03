@@ -86,6 +86,7 @@ header h1 {
     margin-bottom: 4rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid var(--azul);
+    width: 100%;
 }
 .formulario .campo {
     display: grid;
@@ -489,6 +490,7 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100%;
 }
 .modal .cerrar-modal {
     position: absolute;
@@ -504,7 +506,6 @@ main {
 
 .modal .formulario {
     max-width: 80rem;
-    width: 50%;
     transition-property: all;
     transition-duration: 300ms;
     transition-timing-function: ease-in;
@@ -517,6 +518,7 @@ main {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    width: 80%;
 }
 .modal label {
     display: flex;
@@ -571,4 +573,163 @@ body .modal {
     align-items: center;
     font-size: 2.4rem;
     text-align: right;
+}
+
+@media screen and (max-width:320px){
+    h1{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 0rem;
+        font-size: 4rem;
+    }
+    .sombra {
+        width: 95%;
+        position: relative;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        align-items: center;
+
+    }
+    .nuevo-presupuesto {
+        width: 25rem;
+        position: relative;
+        right: 3.1rem;
+    }
+    .formulario > .campo > label{
+        position: relative;
+        right: 0rem;
+        width: 100%;
+    }
+    .contenedor-presupuesto .contenedor .sombra
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        position: relative;
+        left: 1rem;
+    }
+    .campo{
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    
+    }
+    .nuevo-gasto{
+        left: 25rem;
+        top: 44.5rem;
+    }
+    .campo.principal{
+        width: 28rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+    }
+
+    .filtrados{
+        width: 40%;
+        
+    }
+    .opciones{
+        width: 80%;
+        position: relative;
+    }
+    input#nombre::placeholder{
+        font-size: 1.3rem;
+    }
+    input#cantidad::placeholder{
+        font-size: 1.1rem;
+    }
+    input#categoria::placeholder{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    h1{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 0rem;
+        font-size: 4rem;
+    }
+    .sombra {
+        width: 95%;
+        position: relative;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        align-items: center;
+
+    }
+    .nuevo-presupuesto {
+        width: 25rem;
+        position: relative;
+        right: 3.1rem;
+    }
+    .formulario > .campo > label{
+        position: relative;
+        right: 0rem;
+        width: 100%;
+    }
+    .contenedor-presupuesto .contenedor .sombra
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        position: relative;
+        left: 1rem;
+    }
+    .campo{
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    
+    }
+    .nuevo-gasto{
+        position: fixed;
+        left: 34rem;
+        top: 34rem;
+    }
+    .campo.principal{
+        width: 28rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+    }
+
+    .filtrados{
+        width: 40%;
+        
+    }
+    .opciones{
+        width: 80%;
+        position: relative;
+    }
+    input#nombre::placeholder{
+        font-size: 1.3rem;
+    }
+    input#cantidad::placeholder{
+        font-size: 1.1rem;
+    }
+    input#categoria::placeholder{
+        font-size: 1.1rem;
+    }
 }
