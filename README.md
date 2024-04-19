@@ -1,7 +1,9 @@
 
 # Mi Aplicación de Control de Gastos
 
-![Gastos](https://res.cloudinary.com/dpvzlh1zv/image/upload/v1713527235/Mi%20Aplicaci%C3%B3n%20de%20Control%20de%20Gastos/xl7aek7pnvmoaw0mn95q.webp)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpvzlh1zv/image/upload/v1713527235/Mi%20Aplicaci%C3%B3n%20de%20Control%20de%20Gastos/xl7aek7pnvmoaw0mn95q.webp" alt="Gastos" width="200"/>
+</p>
 
 ---
 
@@ -18,7 +20,9 @@ Esta es una aplicación de control de gastos desarrollada en React. Permite a lo
 
 ## Capturas de Pantalla
 
-![Captura de pantalla](https://res.cloudinary.com/dpvzlh1zv/image/upload/v1713527396/Mi%20Aplicaci%C3%B3n%20de%20Control%20de%20Gastos/ny1qi2h4ffs6p8gz8syi.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpvzlh1zv/image/upload/v1713527396/Mi%20Aplicaci%C3%B3n%20de%20Control%20de%20Gastos/ny1qi2h4ffs6p8gz8syi.png" alt="Captura de pantalla" width="400"/>
+</p>
 
 ## Instalación
 
