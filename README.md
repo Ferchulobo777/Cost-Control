@@ -42,7 +42,7 @@ Esta es una aplicación de control de gastos desarrollada en React. Permite a lo
 
 ## Contacto
 
-Para cualquier pregunta o comentario, contáctame en [correo electrónico](mailto:ferchulobo2015@gmail.com).
+Para cualquier pregunta o comentario, contáctame en <a href="mailto:ferchulobo2015@gmail.com" target="_blank" rel="noopener noreferrer">ferchulobo2015@gmail.com</a>.
 
 ## Licencia
 
