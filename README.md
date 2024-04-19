@@ -1,5 +1,5 @@
 
-# Mi Aplicación de Control de Gastos
+# Aplicación de Control de Gastos
 
 <p align="center">
   <img src="https://res.cloudinary.com/dpvzlh1zv/image/upload/v1713527235/Mi%20Aplicaci%C3%B3n%20de%20Control%20de%20Gastos/xl7aek7pnvmoaw0mn95q.webp" alt="Gastos" width="200"/>
