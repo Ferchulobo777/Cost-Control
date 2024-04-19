@@ -26,7 +26,7 @@ Esta es una aplicación de control de gastos desarrollada en React. Permite a lo
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/control-gastos.git`
+1. Clona este repositorio: `git clone https://github.com/Ferchulobo777/Cost-Control.git`
 2. Instala las dependencias: `npm install`
 3. Inicia la aplicación: `npm start`
 
